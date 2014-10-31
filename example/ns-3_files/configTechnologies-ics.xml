@@ -13,7 +13,7 @@
       <installer type="ns3::DvbhVehicleInstaller" name="DvbhVehicle" file="confDvbhVehicle.xml" default="false" /> 
       <installer type="ns3::DvbhBsInstaller" name="DvbhBs" file="confDvbhBs.xml" default="false" />
       <installer type="ns3::TmcInstaller" name="TMC" default="false" />
-      <!-- <installer type="ns3::ItetrisNetworkTransportInstaller" name="NetTrans" default="true" /> -->
+      <installer type="ns3::ItetrisNetworkTransportInstaller" name="NetTrans" default="true" />
       <installer type="ns3::MobilityModelInstaller" name="Mobility" default="true" />
       <installer type="ns3::LteVehicleInstaller" name="LteVehicle" file="confLteVehicle.xml" default="false" />
       <installer type="ns3::LteBsInstaller" name="LteBs" file="confLteBs.xml" default="false" />
